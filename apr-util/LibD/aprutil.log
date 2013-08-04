@@ -1,0 +1,139 @@
+﻿     0>D:\Projects\Cpp\tools\log4cxx\apr-util\aprutil.vcxproj(82,5): warning MSB4011: "C:\Users\Christian\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "D:\Projects\Cpp\tools\log4cxx\apr-util\aprutil.vcxproj (75,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+Build started 8/4/2013 1:36:20 PM.
+     1>Project "D:\Projects\Cpp\tools\log4cxx\apr-util\aprutil.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\LibD\aprutil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./include /I../apr/include /I./include/private /I"../apr-iconv/include" /I./dbm/sdbm /I./xml/expat/lib /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D APR_DECLARE_STATIC /D APU_DECLARE_STATIC /D API_DECLARE_STATIC /D APU_USE_SDBM /D HAVE_SQL_H /D XML_STATIC /D WIN32 /D _WINDOWS /D _VC80_UPGRADE=0x0600 /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\LibD\\" /Fd".\LibD\aprutil-1" /Gd /TC /analyze- /errorReport:prompt  /EHsc   /EHsc buckets\apr_brigade.c buckets\apr_buckets.c buckets\apr_buckets_alloc.c buckets\apr_buckets_eos.c buckets\apr_buckets_file.c buckets\apr_buckets_flush.c buckets\apr_buckets_heap.c buckets\apr_buckets_mmap.c buckets\apr_buckets_pipe.c buckets\apr_buckets_pool.c buckets\apr_buckets_refcount.c buckets\apr_buckets_simple.c buckets\apr_buckets_socket.c crypto\apr_crypto.c crypto\apr_md4.c crypto\apr_md5.c crypto\apr_passwd.c crypto\apr_sha1.c crypto\crypt_blowfish.c crypto\getuuid.c crypto\uuid.c dbd\apr_dbd.c dbd\apr_dbd_freetds.c dbd\apr_dbd_mysql.c dbd\apr_dbd_odbc.c dbd\apr_dbd_oracle.c dbd\apr_dbd_pgsql.c dbd\apr_dbd_sqlite2.c dbd\apr_dbd_sqlite3.c dbm\apr_dbm.c dbm\apr_dbm_berkeleydb.c dbm\apr_dbm_gdbm.c dbm\apr_dbm_sdbm.c encoding\apr_base64.c hooks\apr_hooks.c ldap\apr_ldap_init.c ldap\apr_ldap_option.c ldap\apr_ldap_rebind.c ldap\apr_ldap_stub.c ldap\apr_ldap_url.c memcache\apr_memcache.c misc\apr_date.c misc\apu_dso.c misc\apr_queue.c misc\apr_reslist.c misc\apr_rmm.c misc\apr_thread_pool.c misc\apu_version.c dbm\sdbm\sdbm.c dbm\sdbm\sdbm_hash.c dbm\sdbm\sdbm_lock.c dbm\sdbm\sdbm_pair.c strmatch\apr_strmatch.c uri\apr_uri.c xlate\xlate.c xml\apr_xml.c
+         apr_brigade.c
+         apr_buckets.c
+         apr_buckets_alloc.c
+         apr_buckets_eos.c
+         apr_buckets_file.c
+         apr_buckets_flush.c
+         apr_buckets_heap.c
+         apr_buckets_mmap.c
+         apr_buckets_pipe.c
+         apr_buckets_pool.c
+         apr_buckets_refcount.c
+         apr_buckets_simple.c
+         apr_buckets_socket.c
+         apr_crypto.c
+         apr_md4.c
+         apr_md5.c
+         apr_passwd.c
+         apr_sha1.c
+         crypt_blowfish.c
+     1>crypto\crypt_blowfish.c(894): warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+         getuuid.c
+         Generating Code...
+         Compiling...
+         uuid.c
+         apr_dbd.c
+         apr_dbd_freetds.c
+         apr_dbd_mysql.c
+         apr_dbd_odbc.c
+         apr_dbd_oracle.c
+         apr_dbd_pgsql.c
+         apr_dbd_sqlite2.c
+         apr_dbd_sqlite3.c
+         apr_dbm.c
+         apr_dbm_berkeleydb.c
+         apr_dbm_gdbm.c
+         apr_dbm_sdbm.c
+         apr_base64.c
+         apr_hooks.c
+         apr_ldap_init.c
+         apr_ldap_option.c
+         apr_ldap_rebind.c
+         apr_ldap_stub.c
+         apr_ldap_url.c
+         Generating Code...
+         Compiling...
+         apr_memcache.c
+         apr_date.c
+         apu_dso.c
+         apr_queue.c
+         apr_reslist.c
+         apr_rmm.c
+         apr_thread_pool.c
+         apu_version.c
+         sdbm.c
+         sdbm_hash.c
+         sdbm_lock.c
+         sdbm_pair.c
+         apr_strmatch.c
+         apr_uri.c
+         xlate.c
+         apr_xml.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(D:\Projects\Cpp\tools\log4cxx\apr-util\.\LibD\aprutil.lib) does not match the Library's OutputFile property value (D:\Projects\Cpp\tools\log4cxx\apr-util\LibD\aprutil-1.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1301,5): warning MSB8012: TargetName(aprutil) does not match the Library's OutputFile property value (aprutil-1). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"LibD\aprutil-1.lib" /NOLOGO .\LibD\apr_brigade.obj
+         .\LibD\apr_buckets.obj
+         .\LibD\apr_buckets_alloc.obj
+         .\LibD\apr_buckets_eos.obj
+         .\LibD\apr_buckets_file.obj
+         .\LibD\apr_buckets_flush.obj
+         .\LibD\apr_buckets_heap.obj
+         .\LibD\apr_buckets_mmap.obj
+         .\LibD\apr_buckets_pipe.obj
+         .\LibD\apr_buckets_pool.obj
+         .\LibD\apr_buckets_refcount.obj
+         .\LibD\apr_buckets_simple.obj
+         .\LibD\apr_buckets_socket.obj
+         .\LibD\apr_crypto.obj
+         .\LibD\apr_md4.obj
+         .\LibD\apr_md5.obj
+         .\LibD\apr_passwd.obj
+         .\LibD\apr_sha1.obj
+         .\LibD\crypt_blowfish.obj
+         .\LibD\getuuid.obj
+         .\LibD\uuid.obj
+         .\LibD\apr_dbd.obj
+         .\LibD\apr_dbd_freetds.obj
+         .\LibD\apr_dbd_mysql.obj
+         .\LibD\apr_dbd_odbc.obj
+         .\LibD\apr_dbd_oracle.obj
+         .\LibD\apr_dbd_pgsql.obj
+         .\LibD\apr_dbd_sqlite2.obj
+         .\LibD\apr_dbd_sqlite3.obj
+         .\LibD\apr_dbm.obj
+         .\LibD\apr_dbm_berkeleydb.obj
+         .\LibD\apr_dbm_gdbm.obj
+         .\LibD\apr_dbm_sdbm.obj
+         .\LibD\apr_base64.obj
+         .\LibD\apr_hooks.obj
+         .\LibD\apr_ldap_init.obj
+         .\LibD\apr_ldap_option.obj
+         .\LibD\apr_ldap_rebind.obj
+         .\LibD\apr_ldap_stub.obj
+         .\LibD\apr_ldap_url.obj
+         .\LibD\apr_memcache.obj
+         .\LibD\apr_date.obj
+         .\LibD\apu_dso.obj
+         .\LibD\apr_queue.obj
+         .\LibD\apr_reslist.obj
+         .\LibD\apr_rmm.obj
+         .\LibD\apr_thread_pool.obj
+         .\LibD\apu_version.obj
+         .\LibD\sdbm.obj
+         .\LibD\sdbm_hash.obj
+         .\LibD\sdbm_lock.obj
+         .\LibD\sdbm_pair.obj
+         .\LibD\apr_strmatch.obj
+         .\LibD\apr_uri.obj
+         .\LibD\xlate.obj
+         .\LibD\apr_xml.obj
+         aprutil.vcxproj -> D:\Projects\Cpp\tools\log4cxx\apr-util\.\LibD\aprutil.lib
+       FinalizeBuildStatus:
+         Deleting file ".\LibD\aprutil.unsuccessfulbuild".
+         Touching ".\LibD\aprutil.lastbuildstate".
+     1>Done Building Project "D:\Projects\Cpp\tools\log4cxx\apr-util\aprutil.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.85
